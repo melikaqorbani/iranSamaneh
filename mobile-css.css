@@ -1,0 +1,404 @@
+@media screen and (max-width: 1600px){
+    .ayeeneHeadSvgm{
+        display: none;
+    }
+    
+    .rowtop{
+        height: 420px;
+    }
+    .container-head{
+        width: 1225px;
+    }
+    .container2 {
+        width: 1240px;
+    }
+   
+    .colsize1{
+        height: 458px;
+    }
+    .colsize2{
+        height: 382px;
+        
+    }
+    .size1{
+        background-color: #ffffff;
+        height:264px;
+        margin-bottom: 20px;
+    }
+    
+    .size4{
+        
+        background-color: blue;
+        height: 355px;
+        margin-bottom: 30px;
+    }
+    .size13{
+        margin-bottom: 20px;
+    } 
+}
+@media screen and (max-width: 575px){
+
+    .overlay{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 200%;
+        height: 100%;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity .35s, visibility .35s, height .35s;
+        overflow: hidden;
+        background: black;
+        z-index: 4;
+    }
+    
+    
+    #hamburger-input{
+      display: none;
+    }
+    
+    #hamburger-menu {
+        position: relative;
+        z-index: 9;
+        float: left;
+        top: 45px;
+        left: -85px;
+        width: 30px;
+        height: 25px;
+        display: none;
+        border: none;
+        font-family: 'Cabin', Sans-serif;
+        background: linear-gradient(
+          to bottom, 
+          #011464, #011464 20%, 
+          #16DBF1 20%, #16DBF1 40%, 
+          #011464 40%, #011464 60%, 
+          #16DBF1 60%, #16DBF1 80%, 
+          #011464 80%, #011464 100%
+        );
+    }
+    
+    #hamburger-menu #sidebar-menu {
+        visibility: hidden;
+        position: fixed;
+        display: block;
+        top: 0;
+        left: -250px;
+        width: 30%;
+        height: 100%;
+        background-color: #ffff;
+        transition: 0.3s;
+        padding: 0px 10px;
+        box-sizing: border-box;
+    }
+    
+    #hamburger-menu h3 {
+      color: black;
+      font-size: 2.2rem;
+    }
+    
+    #hamburger-menu ul {
+      padding-left: 0px;
+    }
+    
+    #hamburger-menu li {
+      list-style-type: none;
+      line-height: 3rem;
+    }
+    
+    #hamburger-menu a {
+      color: black;
+      font-size: 1.3rem;
+      text-decoration: none;
+    }
+    
+    #hamburger-menu a:hover {
+      text-decoration: underline;
+    }
+    
+    #hamburger-input:checked + #hamburger-menu #sidebar-menu {
+        visibility: visible;
+        left: 0;
+    }
+    #hamburger-input:checked ~ .overlay{
+       visibility: visible;
+       opacity: 0.4;
+    }
+    #hamburger-menu {
+        display: inline-block;
+      }
+    
+    
+   
+    .size18 {
+        padding-bottom:400px;
+    }
+    .lastHide{
+        display: none;
+    }
+    .videoImg{
+        width: 215px;
+        height: 145px;
+    }
+    
+    
+    .colVideo{
+        order: 1;
+    }
+    .size11 {
+        height: 312px;
+    }
+    
+    
+    .akbarimg{
+        width: 195px;
+        height: 130px;
+    }
+    .colsize51{
+        height: 480px;
+    }
+
+    .bargozideinside{
+        width: 42%;
+    }
+
+   
+
+    .rowposition{
+        position: relative;
+        top: -60px;
+    }
+   
+    .nashrContent{
+        height: 480px;
+    }
+
+
+
+    .container-head{
+        width: 450px;
+    }
+
+    .container2 {
+        margin-bottom: -80px;
+        width: 490px;
+    }
+    .colsize1{
+        height: 300px;
+    margin-bottom: -10px;
+    }
+    .NashrVorud{
+        
+        position: relative;
+        left: 140px;
+        top: 45px;
+    }
+    .PNashrVorud{
+        padding: 4px 35px 2px 36px;
+        font-family: IranSansWeb;
+        border-color: blue;
+        border-radius: 20px;
+        color: #fff;
+        background-color: blue;
+    }
+    
+    .colsize2{
+        height: 382px;
+        
+    }
+
+    .size1{
+        background-color: #ffffff;
+        height:490px;
+        margin-bottom: 20px;
+    }
+    .size2{
+        background-color: #ffffff;
+        padding-bottom: 1167px;
+        margin-bottom: 20px;
+    }
+    .size4{
+        
+        background-color: blue;
+        height: 485px;
+        margin-bottom: 20px;
+    }
+    .size13{
+        height: 509px;
+        margin-bottom: 20px;
+    }
+
+    .colend{
+        margin-bottom: 32px;
+    }
+}
+
+    
+
+@media (max-width: 991px) {
+    /* .headNavUl {
+        flex-wrap: wrap;
+        width: calc(100% - 70px);
+    } */
+    .ayeeneHeadSvg{
+        display: none;
+    }
+    .ayeeneHeadSvgm{
+        display: flex;
+        height: 150px;
+        margin: 30px -40px 0px 0px;
+    }
+    .size2{
+        height: 820px;
+    }
+    
+    .barnone{
+        display: none;
+    }
+    .bargozide{
+        display:flow-root ;
+    }
+
+    .size1 {
+        height: 900px;
+    }
+
+    .display{
+        display: none;
+    }
+    
+   
+    .ul-header{
+        display: none;
+    }
+    .ayeeneHead {
+        display: flex;
+        margin-bottom: 125px;
+    }
+    
+    
+    /* .size14 {
+        height: 805px;
+    } */
+    .khadmat-items2{
+        display: none;
+        
+    }
+    
+    .khadmat-item{
+        width: 47%;
+    }
+    .nashr1{
+        padding: 0px;
+    }
+    
+    .col-none{
+        display: none;
+    }
+    .col12-none{
+        width: 100%;
+    }
+
+}
+@media (min-width: 1199px) {
+    
+}
+
+@media (max-width: 1199px) {
+    .ayeha_contents{
+        margin-top: 40px;
+    }
+    /* .headNavUl {
+        flex-wrap: wrap;
+        width: calc(100% - 70px);
+    } */
+    }
+    .size1{
+       height: 260px;;
+    }
+    
+
+    
+
+    .li-header ,.li-header1 {
+        
+        padding: 11px 0px 6px 0px;
+    }
+    .ul-header {
+        position: relative;
+        z-index: 7;
+        width: 600px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        padding: 0px 15px 0px 15px;
+        justify-content: space-between;
+    }
+    .li-header::after {
+        margin: 0px 7px 0px 5px;
+        position: relative;
+        /* top: -19px; */
+        content: "";
+        top: -3px;
+        background-color: #7AC9D3;
+        width: 1px;
+    }
+    .headNavli{
+        margin-bottom: 20px;
+    }
+    
+
+@media (max-width: 772px) {
+    .gozarshSelected{
+        width: 500px;
+        padding: 0px 18px 0px 17px;
+    }
+
+    .ayeene{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .selectedVIdeo{
+        margin-bottom: 80px;
+    }
+
+    .paddings, .colVideo{
+        padding: 0px;
+    }
+    /* .size2{
+        height: 700px;
+    } */
+    .last{
+        display: none;
+    }
+    .bargozide{
+        margin-top: 5px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .bargozideinside {
+        width: 49%;
+    }
+    .barnone{
+        display: unset;
+    }
+    .rowtop {
+        height: 880px;
+    }
+    
+    
+    .ayeeneHeadSvg{
+        display: none;
+    }
+    .ayeeneHead{
+        display: flex;
+
+    }
+    .headNavUl{
+        margin-bottom: 21px;
+    }
+    .size18 {
+        height: 1025px;
+    }
+}
